@@ -1,0 +1,51 @@
+{
+    attributes = (
+        {columnName = cat; name = category; prototypeName = varcharLarge; }, 
+        {
+            columnName = features; 
+            name = features; 
+            prototypeName = blobArray; 
+        }, 
+        {
+            allowsNull = N; 
+            externalType = string; 
+            name = id; 
+            prototypeName = id; 
+        }, 
+        {columnName = inStock; name = inStock; prototypeName = boolean; }, 
+        {columnName = manu; name = manufacturer; prototypeName = varcharLarge; }, 
+        {columnName = name; name = name; prototypeName = varcharLarge; }, 
+        {columnName = popularity; name = popularity; prototypeName = intNumber; }, 
+        {columnName = price; name = price; prototypeName = doubleNumber; }, 
+        {columnName = sku; name = sku; prototypeName = varcharLarge; }, 
+        {columnName = weight; name = weight; prototypeName = doubleNumber; }
+    ); 
+    attributesUsedForLocking = (
+        category, 
+        features, 
+        id, 
+        inStock, 
+        manufacturer, 
+        name, 
+        popularity, 
+        price, 
+        sku, 
+        weight
+    ); 
+    className = "er.solr.example.eo.Inventory"; 
+    classProperties = (
+        category, 
+        features, 
+        inStock, 
+        manufacturer, 
+        name, 
+        popularity, 
+        price, 
+        sku, 
+        weight
+    ); 
+    externalName = solr; 
+    fetchSpecificationDictionary = {}; 
+    name = Inventory; 
+    primaryKeyAttributes = (id); 
+}

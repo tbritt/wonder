@@ -14,5 +14,6 @@
 		<module>JavaFSAdaptor</module>
 		<module>JavaMemoryAdaptor</module>
 		<module>JavaRESTAdaptor</module>
+		<module>JavaSolrAdaptor</module>
 	</modules>
 </project>

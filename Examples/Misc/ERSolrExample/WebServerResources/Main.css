@@ -1,0 +1,97 @@
+body {
+    background: #CED4D4;
+}
+
+body, th, td {
+    font-family: Helvetica;
+    font-size: 10pt;
+    color: #555;
+}
+
+h2 {
+    color: #333;
+    font-size: 22pt;
+    font-family: 'Lucida Grande';
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+div.content {
+    border-radius: 8px;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+div#facets {
+    float: left; 
+    #background: #eee;
+    margin-right: 20px;
+    padding: 10px;
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    
+}
+
+div#facets ul.facetList, div#facets ul.facetItemList {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+div#facets ul.facetList li {
+    margin:0;
+    padding:0;
+    padding-bottom: .5em;
+}
+
+div#facets ul.facetItemList li {
+    margin:0;
+    padding:0;
+    padding-bottom: .5em;
+}
+
+div#facets ul.facetItemList {
+    margin-left: 1em;
+}
+
+div#facets ul.facetList li h3 {
+    font-size: 9pt;
+    
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: .5em;
+    padding-left:1em;
+    padding-right:1em;
+    margin: 0;
+}
+
+th {
+    white-space: nowrap;
+    font-weight: normal;
+    color: #444;
+    text-align: left;
+    padding-bottom: .1em;
+    border-bottom: 1px solid #999;
+}
+
+tr > td:first-child { 
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+tr > td:last-child { 
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+tr.alternate td {
+    background: #E9EFEF;
+}
+

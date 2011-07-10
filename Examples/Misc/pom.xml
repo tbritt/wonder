@@ -18,6 +18,7 @@
 		<module>EROpenIDExample</module>
 		<module>ERRestRouteExample</module>
 		<module>ERSeleniumExample</module>
+		<module>ERSolrExample</module>
 		<module>JavaRESTAdaptorExample</module>
 		<module>RestExample</module>
 		<module>TickTockMan</module>
