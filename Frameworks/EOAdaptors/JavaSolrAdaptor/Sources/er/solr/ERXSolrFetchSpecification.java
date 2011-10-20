@@ -256,6 +256,7 @@ public class ERXSolrFetchSpecification<T extends EOEnterpriseObject> extends ERX
     }
     
     public void setResult(Result<T> result) {
+        new RuntimeException().printStackTrace();
         _result = result;
     }
     

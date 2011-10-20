@@ -1,6 +1,5 @@
 
 dbConnectURLGLOBAL=http://127.0.0.1:8983/solr/
-#dbConnectURLGLOBAL=http://zfriedland2.apple.com:8983/solr/
 log4j.logger.er=ERROR
 
 
